@@ -76,6 +76,7 @@ function App() {
           Add
         </Button>
       </Group>
+      <Text>Test vercel deployment</Text>
       <Text fz={48} fw={"bold"}>
         To do lists:
       </Text>
