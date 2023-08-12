@@ -77,6 +77,7 @@ function App() {
         </Button>
       </Group>
       <Text>Test vercel deployment</Text>
+      <Text>wait at least 14 min</Text>
       <Text fz={48} fw={"bold"}>
         To do lists:
       </Text>
