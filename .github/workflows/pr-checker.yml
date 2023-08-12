@@ -21,4 +21,4 @@ jobs:
       - name: 🔎 linting...
         run: npm run lint
       - name: echo "🏗 test building..."
-        run: npm run build:ci
+        run: npm run build
