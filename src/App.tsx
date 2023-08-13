@@ -11,6 +11,7 @@ import "./App.css";
 import { useRef, useState } from "react";
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);
+  const title = "To do lists: ";
   const [todos, setTodos] = useState([
     {
       id: 1,
@@ -35,6 +36,7 @@ function App() {
           complete: false,
         },
       ]);
+      inputRef.current.value = "";
     }
   };
 
@@ -76,7 +78,7 @@ function App() {
           Add
         </Button>
       </Group>
-      
+
       <Text fz={48} fw={"bold"}>
         To do lists:
       </Text>
