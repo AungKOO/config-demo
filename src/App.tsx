@@ -35,6 +35,7 @@ function App() {
           complete: false,
         },
       ]);
+      inputRef.current.value = "";
     }
   };
 
@@ -76,7 +77,7 @@ function App() {
           Add
         </Button>
       </Group>
-      
+
       <Text fz={48} fw={"bold"}>
         To do lists:
       </Text>
