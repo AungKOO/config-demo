@@ -11,6 +11,7 @@ import "./App.css";
 import { useRef, useState } from "react";
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);
+  const title = "To do tasks: ";
   const [todos, setTodos] = useState([
     {
       id: 1,
