@@ -11,6 +11,8 @@ import "./App.css";
 import { useRef, useState } from "react";
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);
+  const apple = "test";
+  console.log("apple: ", apple)
   const [todos, setTodos] = useState([
     {
       id: 1,
